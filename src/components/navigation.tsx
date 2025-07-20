@@ -4,14 +4,10 @@ import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { 
-  Car, 
   Users, 
-  AlertTriangle, 
-  BarChart3, 
+  Car,
   Menu, 
   X,
-  MapPin,
-  Clock,
   LayoutDashboard,
   Route,
   Calendar,

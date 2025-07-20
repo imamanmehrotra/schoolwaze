@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { MapPin, Clock, AlertTriangle, Navigation2, Car, Fuel } from 'lucide-react';
 import { Navigation } from '@/components/navigation';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
@@ -214,7 +214,7 @@ export default function RoutingPage() {
             {/* Quick Stats */}
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Today's Stats</CardTitle>
+                <CardTitle className="text-lg">Today&apos;s Stats</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
