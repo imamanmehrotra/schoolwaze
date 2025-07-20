@@ -4,12 +4,12 @@
   publish = "out"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "20.0.0"
 
-# Handle Next.js routing
+# Handle client-side routing for SPA
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/index.html" 
   status = 200
 
 # Security headers
