@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { AlertTriangle, Bell, Clock, MapPin, Settings, X, CheckCircle, AlertCircle, Info } from 'lucide-react';
 import { Navigation } from '@/components/navigation';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Modal } from '@/components/ui/modal';
 
@@ -144,9 +144,9 @@ export default function AlertsPage() {
     });
   };
 
-  const handleDismissAlert = (alertId: number) => {
-    // console.log('Dismissing alert:', alertId); // Removed for cleaner console
+  const handleDismissAlert = () => {
     // Handle alert dismissal logic
+    alert('Alert dismissed! (Demo only)');
   };
 
   const handleSettingChange = (key: string, value: boolean) => {
@@ -260,7 +260,7 @@ export default function AlertsPage() {
                       size="sm"
                       onClick={(e) => {
                         e.stopPropagation();
-                        handleDismissAlert(alert.id);
+                        handleDismissAlert();
                       }}
                     >
                       <X className="h-4 w-4" />
@@ -344,7 +344,7 @@ export default function AlertsPage() {
                 {selectedAlert.status === 'active' && (
                   <Button 
                     onClick={() => {
-                      handleDismissAlert(selectedAlert.id);
+                      handleDismissAlert();
                       setSelectedAlert(null);
                     }}
                     className="flex-1"

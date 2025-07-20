@@ -464,7 +464,7 @@ export default function Home() {
               label="Child Name"
               value={formData.childName}
               onChange={(e) => handleInputChange('childName', e.target.value)}
-              placeholder="Enter child's name"
+              placeholder="Enter child&apos;s name"
             />
           </div>
           
@@ -472,7 +472,7 @@ export default function Home() {
             label="School Name"
             value={formData.schoolName}
             onChange={(e) => handleInputChange('schoolName', e.target.value)}
-            placeholder="Enter your child's school"
+            placeholder="Enter your child&apos;s school"
           />
           
           <div className="flex flex-col sm:flex-row gap-3 pt-4">

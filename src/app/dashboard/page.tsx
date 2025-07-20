@@ -14,7 +14,7 @@ import {
   Bell
 } from 'lucide-react';
 import { Navigation } from '@/components/navigation';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 // Mock dashboard data
@@ -91,7 +91,7 @@ export default function DashboardPage() {
             Good morning, {mockDashboardData.user.name}!
           </h1>
           <p className="text-gray-600">
-            Here's your school traffic overview for today • {currentTime}
+            Here&apos;s your school traffic overview for today • {currentTime}
           </p>
         </div>
 
