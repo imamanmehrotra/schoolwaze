@@ -2,16 +2,20 @@
 
 import * as React from 'react';
 import { 
-  Car, 
+  MapPin, 
+  Clock, 
   Users, 
-  AlertTriangle, 
-  BarChart3, 
-  MapPin,
-  Clock,
-  Shield,
-  ArrowRight,
+  TrendingUp, 
+  Shield, 
+  Bell, 
+  ChevronRight,
+  Star,
   CheckCircle,
-  TrendingUp
+  AlertCircle,
+  AlertTriangle,
+  ArrowRight,
+  BarChart3,
+  X
 } from 'lucide-react';
 import { Navigation } from '@/components/navigation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';

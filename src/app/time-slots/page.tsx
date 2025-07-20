@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { Calendar, Clock, Users, TrendingUp, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Calendar, Clock, TrendingUp, AlertCircle, CheckCircle2 } from 'lucide-react';
 import { Navigation } from '@/components/navigation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -240,7 +240,7 @@ export default function TimeSlotsPage() {
             <Card>
               <CardHeader>
                 <CardTitle className="text-lg">Your Bookings</CardTitle>
-                <CardDescription>Today's schedule</CardDescription>
+                <CardDescription>Today&apos;s schedule</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
