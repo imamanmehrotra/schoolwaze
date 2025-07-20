@@ -66,12 +66,12 @@ export default function TimeSlotsPage() {
 
   const handleSlotSelection = (time: string) => {
     setSelectedSlot(time);
-    console.log(`Selected ${slotType} slot:`, time);
+    // console.log(`Selected ${slotType} slot:`, time); // Removed for cleaner console
   };
 
   const handleBookSlot = () => {
     if (selectedSlot) {
-      console.log(`Booking ${slotType} slot for ${selectedDate} at ${selectedSlot}`);
+      // console.log(`Booking ${slotType} slot for ${selectedDate} at ${selectedSlot}`); // Removed for cleaner console
       // Handle booking logic here
       setSelectedSlot(null);
     }

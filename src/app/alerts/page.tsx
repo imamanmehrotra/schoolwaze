@@ -145,7 +145,7 @@ export default function AlertsPage() {
   };
 
   const handleDismissAlert = (alertId: number) => {
-    console.log('Dismissing alert:', alertId);
+    // console.log('Dismissing alert:', alertId); // Removed for cleaner console
     // Handle alert dismissal logic
   };
 

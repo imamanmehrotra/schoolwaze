@@ -55,7 +55,7 @@ export default function Home() {
 
   const handleRegistration = () => {
     // Mock registration logic
-    console.log('Registration data:', formData);
+    // console.log('Registration data:', formData); // Removed for cleaner console
     setShowRegistrationModal(false);
     // Reset form
     setFormData({

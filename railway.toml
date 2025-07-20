@@ -1,0 +1,15 @@
+version: 3
+services:
+  web:
+    source:
+      type: local
+    build:
+      commands:
+        - npm install
+        - npm run build
+    start:
+      command: npm start
+    variables:
+      NODE_VERSION: 20.0.0
+      PORT: ${{ RAILWAY_STATIC_PORT }}
+      NODE_ENV: production

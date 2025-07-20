@@ -92,8 +92,9 @@ export default function CarpoolPage() {
     notes: ''
   });
 
-  const handleCreateRequest = () => {
-    console.log('Creating carpool request:', newRequest);
+    const handleCreateRequest = () => {
+    // console.log('Creating carpool request:', newRequest); // Removed for cleaner console
+    alert('Carpool request created! (Demo only)');
     setShowCreateModal(false);
     // Reset form
     setNewRequest({
@@ -106,9 +107,9 @@ export default function CarpoolPage() {
     });
   };
 
-  const handleJoinCarpool = (carpoolId: number) => {
-    console.log('Joining carpool:', carpoolId);
-    // Handle carpool join logic
+  const handleJoinCarpool = (carpoolId: string | number) => {
+    // console.log('Joining carpool:', carpoolId); // Removed for cleaner console
+    alert(`Joined carpool ${carpoolId}! (Demo only)`);
   };
 
   return (
