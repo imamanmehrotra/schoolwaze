@@ -128,7 +128,7 @@ export function generateTimeSlots(
 /**
  * Debounce function for search inputs
  */
-export function debounce<T extends (...args: any[]) => any>(
+export function debounce<T extends (...args: unknown[]) => unknown>(
   func: T,
   delay: number
 ): (...args: Parameters<T>) => void {
@@ -136,7 +136,7 @@ export function debounce<T extends (...args: any[]) => any>(
   
   return (...args: Parameters<T>) => {
     clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => func.apply(null, args), delay);
+    timeoutId = setTimeout(() => func(...args), delay);
   };
 }
 
@@ -244,7 +244,7 @@ export function sleep(ms: number): Promise<void> {
 /**
  * Validate required fields in a form object
  */
-export function validateRequiredFields<T extends Record<string, any>>(
+export function validateRequiredFields<T extends Record<string, unknown>>(
   data: T,
   requiredFields: (keyof T)[]
 ): { isValid: boolean; errors: string[] } {
@@ -265,7 +265,7 @@ export function validateRequiredFields<T extends Record<string, any>>(
 /**
  * Safe JSON parse that returns null on error
  */
-export function safeJSONParse<T = any>(str: string): T | null {
+export function safeJSONParse<T = unknown>(str: string): T | null {
   try {
     return JSON.parse(str);
   } catch {

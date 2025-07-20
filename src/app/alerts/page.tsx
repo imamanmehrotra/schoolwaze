@@ -189,7 +189,7 @@ export default function AlertsPage() {
               ].map(({ key, label, count }) => (
                 <button
                   key={key}
-                  onClick={() => setFilter(key as any)}
+                  onClick={() => setFilter(key as 'all' | 'active' | 'resolved')}
                   className={`py-2 px-1 border-b-2 font-medium text-sm ${
                     filter === key
                       ? 'border-blue-500 text-blue-600'

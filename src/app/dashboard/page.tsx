@@ -158,7 +158,7 @@ export default function DashboardPage() {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Calendar className="h-5 w-5 mr-2 text-blue-600" />
-                  Today's Schedule
+                  Today&apos;s Schedule
                 </CardTitle>
               </CardHeader>
               <CardContent>

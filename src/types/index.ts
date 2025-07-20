@@ -240,7 +240,7 @@ export interface Notification {
   type: 'traffic_alert' | 'carpool_request' | 'schedule_change' | 'emergency' | 'general';
   title: string;
   message: string;
-  data?: Record<string, any>;
+  data?: Record<string, unknown>;
   isRead: boolean;
   createdAt: Date;
   expiresAt?: Date;
@@ -267,7 +267,7 @@ export interface Analytics {
 }
 
 // API response types
-export interface ApiResponse<T = any> {
+export interface ApiResponse<T = unknown> {
   success: boolean;
   data?: T;
   error?: string;
@@ -275,7 +275,7 @@ export interface ApiResponse<T = any> {
   timestamp: Date;
 }
 
-export interface PaginatedResponse<T = any> extends ApiResponse<T[]> {
+export interface PaginatedResponse<T = unknown> extends ApiResponse<T[]> {
   pagination: {
     page: number;
     limit: number;
@@ -290,11 +290,11 @@ export interface ValidationError {
   message: string;
 }
 
-export interface FormState<T = any> {
+export interface FormState<T = unknown> {
   data: T;
   errors: ValidationError[];
   isLoading: boolean;
-  isValid: boolean;
+  valid: boolean;
   touched: Record<string, boolean>;
 }
 
