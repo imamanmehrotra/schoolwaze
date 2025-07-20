@@ -1,16 +1,13 @@
-# Netlify deployment configuration
+# Netlify deployment with Next.js runtime
 [build]
   command = "npm run build"
-  publish = "out"
 
 [build.environment]
   NODE_VERSION = "20.0.0"
 
-# Handle client-side routing for SPA
-[[redirects]]
-  from = "/*"
-  to = "/index.html" 
-  status = 200
+# Use Essential Next.js plugin for Netlify
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 # Security headers
 [[headers]]
