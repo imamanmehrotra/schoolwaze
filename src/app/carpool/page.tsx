@@ -299,7 +299,7 @@ export default function CarpoolPage() {
                   Trust Circle
                 </CardTitle>
                 <CardDescription>
-                  Parents you've verified and trust with your children
+                  Parents you&apos;ve verified and trust with your children
                 </CardDescription>
               </CardHeader>
               <CardContent>
