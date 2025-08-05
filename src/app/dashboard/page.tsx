@@ -20,7 +20,7 @@ import { Button } from '@/components/ui/button';
 // Mock dashboard data
 const mockDashboardData = {
   user: {
-    name: 'Sarah Johnson',
+    name: 'Hridhan Srivastava',
     children: ['Emma Johnson', 'Liam Johnson'],
     school: 'Lincoln Elementary School'
   },
