@@ -36,25 +36,25 @@ const mockDashboardData = {
   },
   todayStats: {
     timeSaved: '12 min',
-    fuelSaved: '0.8 gal',
+    fuelSaved: '0.8 l',
     carbonReduced: '2.1 lbs',
     carpoolsActive: 2
   },
   recentAlerts: [
-    { id: 1, message: 'Light traffic on Oak Street - 2 min delay', severity: 'low', time: '10 min ago' },
-    { id: 2, message: 'Basketball game early dismissal at 2:30 PM', severity: 'info', time: '1 hour ago' },
-    { id: 3, message: 'Construction on Maple Ave - use Pine St', severity: 'medium', time: '2 hours ago' }
+    { id: 1, message: 'Light traffic at Sahibabad Central - 2 min delay', severity: 'low', time: '10 min ago' },
+    { id: 2, message: 'Cricket game early dismissal at 2:30 PM at Choudhary Stadium', severity: 'info', time: '1 hour ago' },
+    { id: 3, message: 'Construction on DLF site on the way - use Dilshad Garden route', severity: 'medium', time: '2 hours ago' }
   ],
   upcomingEvents: [
     { date: 'Tomorrow', event: 'Parent-Teacher Conferences', time: '4:00 PM' },
     { date: 'Friday', event: 'School Assembly', time: '9:00 AM' },
-    { date: 'Next Week', event: 'Field Trip - Science Museum', time: '8:00 AM' }
+    { date: 'Next Week', event: 'Field Trip - Indian Science Museum', time: '8:00 AM' }
   ],
   trafficInsights: {
     bestDropoffTime: '7:15 AM',
     bestPickupTime: '3:30 PM',
     currentWaitTime: '6 min',
-    recommendedRoute: 'Oak Street (5 min faster)'
+    recommendedRoute: 'Rajendra Nagar street (5 min faster)'
   }
 };
 
