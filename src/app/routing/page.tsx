@@ -63,7 +63,7 @@ const mockTrafficAlerts = [
 
 export default function RoutingPage() {
   const [selectedRoute, setSelectedRoute] = React.useState(1);
-  const [destination, setDestination] = React.useState('Lincoln Elementary School');
+  const [destination, setDestination] = React.useState('DLF Public School');
   const [departureTime, setDepartureTime] = React.useState('7:45 AM');
 
   return (
@@ -233,15 +233,15 @@ export default function RoutingPage() {
                       <Fuel className="h-5 w-5 mr-2 text-green-600" />
                       <span className="text-sm text-gray-600">Fuel Saved</span>
                     </div>
-                    <span className="font-medium text-gray-900">0.8 gal</span>
+                    <span className="font-medium text-gray-900">0.8 lit</span>
                   </div>
                   
                   <div className="flex items-center justify-between">
                     <div className="flex items-center">
                       <Car className="h-5 w-5 mr-2 text-purple-600" />
-                      <span className="text-sm text-gray-600">Miles</span>
+                      <span className="text-sm text-gray-600">Kilometers</span>
                     </div>
-                    <span className="font-medium text-gray-900">3.2 mi</span>
+                    <span className="font-medium text-gray-900">3.2 km</span>
                   </div>
                 </div>
               </CardContent>
