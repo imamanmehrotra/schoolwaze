@@ -12,11 +12,11 @@ const mockAlerts = [
   {
     id: 1,
     type: 'emergency',
-    title: 'School Lockdown - Lincoln Elementary',
-    message: 'School is temporarily in lockdown due to nearby emergency. All students are safe. Pickup delayed until 4:00 PM.',
+    title: 'School Lockdown - DLF Public School',
+    message: 'School is temporarily in lockdown due to nearby viral outbreak. All students are safe. Pickup delayed until 4:00 PM.',
     timestamp: '2024-01-15T14:30:00Z',
-    school: 'Lincoln Elementary',
-    location: '123 Oak Street',
+    school: 'DLF Public School',
+    location: 'Sector 2, Rajender Nagar',
     status: 'active',
     priority: 'critical',
     estimatedResolution: '4:00 PM'
@@ -24,11 +24,11 @@ const mockAlerts = [
   {
     id: 2,
     type: 'traffic',
-    title: 'Heavy Traffic on Maple Avenue',
-    message: 'Construction causing 15-minute delays on Maple Avenue. Consider alternative routes.',
+    title: 'Heavy Traffic near Rajendra Nagar central',
+    message: 'Construction causing 15-minute delays on Rajendra Nagar road. Consider alternative routes.',
     timestamp: '2024-01-15T13:45:00Z',
-    school: 'Lincoln Elementary',
-    location: 'Maple Avenue & 5th Street',
+    school: 'DLF Public School',
+    location: 'Sector 2, Rajender Nagar',
     status: 'active',
     priority: 'medium',
     estimatedResolution: '5:30 PM'
@@ -48,11 +48,11 @@ const mockAlerts = [
   {
     id: 4,
     type: 'event',
-    title: 'Early Dismissal - Basketball Game',
-    message: 'Lincoln Elementary dismissing 30 minutes early today for away basketball game.',
+    title: 'Early Dismissal - Cricket Game',
+    message: 'DLF Public School dismissing 30 minutes early today for away cricket game.',
     timestamp: '2024-01-15T11:30:00Z',
-    school: 'Lincoln Elementary',
-    location: '123 Oak Street',
+    school: 'DLF Public School',
+    location: 'Sector 2, Rajender Nagar',
     status: 'resolved',
     priority: 'medium',
     estimatedResolution: 'Completed'
@@ -63,8 +63,8 @@ const mockAlerts = [
     title: 'Parking Lot Maintenance',
     message: 'East parking lot closed for maintenance. Use main entrance and west lot.',
     timestamp: '2024-01-15T10:00:00Z',
-    school: 'Lincoln Elementary',
-    location: '123 Oak Street',
+    school: 'DLF Public School',
+    location: 'Sector 2, Rajender Nagar',
     status: 'active',
     priority: 'low',
     estimatedResolution: '3:00 PM'
