@@ -25,10 +25,10 @@ const mockPickupSlots = [
 ];
 
 const mockBookings = [
-  { id: 1, child: 'Emma Johnson', time: '7:15 AM', type: 'drop-off', status: 'confirmed', date: '2024-01-15' },
-  { id: 2, child: 'Liam Johnson', time: '7:15 AM', type: 'drop-off', status: 'confirmed', date: '2024-01-15' },
-  { id: 3, child: 'Emma Johnson', time: '3:15 PM', type: 'pickup', status: 'waitlist', date: '2024-01-15' },
-  { id: 4, child: 'Liam Johnson', time: '3:15 PM', type: 'pickup', status: 'confirmed', date: '2024-01-15' },
+  { id: 1, child: 'Hridhan Srivastava', time: '7:15 AM', type: 'drop-off', status: 'confirmed', date: '2024-01-15' },
+  { id: 2, child: 'Kavya', time: '7:15 AM', type: 'drop-off', status: 'confirmed', date: '2024-01-15' },
+  { id: 3, child: 'Hridhan Srivastava', time: '3:15 PM', type: 'pickup', status: 'waitlist', date: '2024-01-15' },
+  { id: 4, child: 'Kavya', time: '3:15 PM', type: 'pickup', status: 'confirmed', date: '2024-01-15' },
 ];
 
 const getStatusColor = (congestion: string) => {
