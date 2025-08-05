@@ -21,17 +21,17 @@ import { Button } from '@/components/ui/button';
 const mockDashboardData = {
   user: {
     name: 'Hridhan Srivastava',
-    children: ['Emma Johnson', 'Liam Johnson'],
-    school: 'Lincoln Elementary School'
+    children: ['Hansika', 'Akira'],
+    school: 'DLF Public School'
   },
   todaySchedule: [
-    { time: '7:15 AM', event: 'Drop-off - Emma & Liam', status: 'upcoming', type: 'drop-off' },
-    { time: '3:15 PM', event: 'Pickup - Emma & Liam', status: 'upcoming', type: 'pickup' },
+    { time: '7:15 AM', event: 'Drop-off - Shanaya & Viaan', status: 'upcoming', type: 'drop-off' },
+    { time: '3:15 PM', event: 'Pickup - Shanaya & Viaan', status: 'upcoming', type: 'pickup' },
   ],
   activeCarpool: {
-    driver: 'Michael Chen',
+    driver: 'Anant Srivastava',
     time: '7:30 AM',
-    children: ['Sophie Chen', 'Emma Johnson'],
+    children: ['Hridhan', 'Shanaya'],
     status: 'confirmed'
   },
   todayStats: {
