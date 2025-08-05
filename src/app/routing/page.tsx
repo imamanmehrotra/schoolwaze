@@ -13,49 +13,51 @@ const mockRoutes = [
     id: 1,
     name: 'Recommended Route',
     duration: '12 min',
-    distance: '3.2 miles',
+    distance: '3.2 km',
     traffic: 'light',
     savings: '5 min saved',
     steps: [
-      'Head north on Oak Street',
-      'Turn right onto Maple Avenue',
-      'Continue straight for 1.5 miles',
-      'Turn left into Lincoln Elementary'
+      'Head north on Dr. Radha Krishnan Marg',
+      'Turn right onto Wazirabad road',
+      'Continue straight on Wazirabad road for 2.1 km',
+      'Turn left towards Block II to reach DLF Public School'
     ]
   },
   {
     id: 2,
     name: 'Alternative Route',
     duration: '15 min',
-    distance: '3.8 miles',
+    distance: '3.8 km',
     traffic: 'moderate',
     savings: '2 min saved',
     steps: [
-      'Head south on Pine Street',
-      'Turn left onto First Avenue',
-      'Turn right onto School Drive',
-      'Arrive at Lincoln Elementary'
+      'Head west on Major Mohit Sharma road',
+      'Turn right towards Balaji Hospital',
+      'Take left towards Ram Manohar Lohia Park',
+      'Turn right to reach BBFS Sports Complex',
+      'Turn right to reach DLF Public School'
     ]
   },
   {
     id: 3,
     name: 'Scenic Route',
     duration: '18 min',
-    distance: '4.1 miles',
+    distance: '4.1 km',
     traffic: 'light',
     savings: 'Avoid construction',
     steps: [
-      'Head east on Elm Street',
-      'Turn left onto Park Boulevard',
-      'Continue through residential area',
-      'Turn right to school entrance'
+      'Head North on Ganga Banquet Road',
+      'Turn left onto Dr.Zakir Hussain Marg',
+      'Turn right for DAV Public School',
+      'Turn left to reach BBFS Sports Complex',
+      'Turn left to reach DLF Public School'
     ]
   }
 ];
 
 const mockTrafficAlerts = [
-  { id: 1, message: 'Heavy traffic on Main Street', severity: 'high', eta: '15 min delay' },
-  { id: 2, message: 'Construction on Maple Ave', severity: 'medium', eta: '5 min delay' },
+  { id: 1, message: 'Heavy traffic near Rajendra Nagar junction', severity: 'high', eta: '15 min delay' },
+  { id: 2, message: 'Construction on DLF site, Dilshad Garden', severity: 'medium', eta: '5 min delay' },
   { id: 3, message: 'School zone - reduced speed', severity: 'low', eta: 'No delay' },
 ];
 
