@@ -27,14 +27,14 @@ const mockTrafficData = {
 };
 
 const mockUpcomingEvents = [
-  { time: '7:45 AM', event: 'Drop-off at Lincoln Elementary', type: 'personal' },
-  { time: '8:15 AM', event: 'Pick up Sarah (Carpool)', type: 'carpool' },
+  { time: '7:45 AM', event: 'Drop-off at DLF Public School', type: 'personal' },
+  { time: '8:15 AM', event: 'Pick up Viaan (Carpool)', type: 'carpool' },
   { time: '3:00 PM', event: 'Early dismissal alert', type: 'alert' },
 ];
 
 const mockRecentAlerts = [
-  { id: 1, message: 'Heavy traffic on Maple St - Use Oak Ave instead', time: '5 min ago', severity: 'medium' },
-  { id: 2, message: 'Construction on Main St through Friday', time: '2 hours ago', severity: 'low' },
+  { id: 1, message: 'Heavy traffic on Kaushambi Metro Road - Use Dilshad Garden road instead', time: '5 min ago', severity: 'medium' },
+  { id: 2, message: 'Construction near Sahibabad Industrial Area', time: '2 hours ago', severity: 'low' },
   { id: 3, message: 'Weather alert: Rain expected during pickup', time: '1 day ago', severity: 'high' },
 ];
 
