@@ -12,47 +12,47 @@ import { Modal } from '@/components/ui/modal';
 const mockCarpoolRequests = [
   {
     id: 1,
-    parentName: 'Sarah Johnson',
-    schoolName: 'Lincoln Elementary',
+    parentName: 'Anant Srivastava',
+    schoolName: 'DLF Public School',
     pickupTime: '7:30 AM',
     returnTime: '3:00 PM',
-    distance: '0.8 miles from you',
+    distance: '0.8 km from you',
     rating: 4.8,
     reviews: 24,
     children: 2,
     trustCircle: true,
     preferences: ['Non-smoking', 'Pet-friendly', 'Music OK'],
-    route: 'Via Oak Street',
+    route: 'Via Rajendra Nagar',
     avatar: '/api/placeholder/40/40'
   },
   {
     id: 2,
-    parentName: 'Michael Chen',
-    schoolName: 'Lincoln Elementary',
+    parentName: 'Richa Gupta',
+    schoolName: 'DLF Public School',
     pickupTime: '7:45 AM',
     returnTime: '3:15 PM',
-    distance: '1.2 miles from you',
+    distance: '1.2 km from you',
     rating: 4.9,
     reviews: 18,
     children: 1,
     trustCircle: false,
-    preferences: ['Punctual', 'Quiet ride', 'No pets'],
-    route: 'Via Maple Avenue',
+    preferences: ['Punctual', 'Quiet ride', 'No pets', 'Music OK'],
+    route: 'Via Kaushambi Metro',
     avatar: '/api/placeholder/40/40'
   },
   {
     id: 3,
-    parentName: 'Emily Rodriguez',
-    schoolName: 'Lincoln Elementary',
+    parentName: 'Sanjay Khanna',
+    schoolName: 'DLF Public School',
     pickupTime: '8:00 AM',
     returnTime: '2:45 PM',
-    distance: '0.5 miles from you',
+    distance: '0.5 km from you',
     rating: 4.7,
     reviews: 31,
     children: 3,
     trustCircle: true,
     preferences: ['Family-friendly', 'Flexible timing', 'Snacks allowed'],
-    route: 'Via Pine Street',
+    route: 'Via Sahibabad Bus Stand',
     avatar: '/api/placeholder/40/40'
   }
 ];
@@ -60,21 +60,21 @@ const mockCarpoolRequests = [
 const mockActiveCarpools = [
   {
     id: 1,
-    parentName: 'David Kim',
-    children: ['Emma', 'Liam'],
+    parentName: 'Anant Srivastava',
+    children: ['Hridhan', 'Kavya'],
     pickupTime: '7:40 AM',
     status: 'confirmed',
     nextPickup: 'Tomorrow',
-    phone: '(555) 123-4567'
+    phone: '+91-8341123456'
   },
   {
     id: 2,
-    parentName: 'Lisa Wang',
-    children: ['Sophie'],
+    parentName: 'Nidhi Agarwal',
+    children: ['Suryansh'],
     pickupTime: '3:10 PM',
     status: 'pending',
     nextPickup: 'Today',
-    phone: '(555) 987-6543'
+    phone: '+91-8870091234'
   }
 ];
 
@@ -400,8 +400,8 @@ export default function CarpoolPage() {
         >
           <div className="space-y-4">
             <Input
-              label="Distance (miles)"
-              placeholder="Within 2 miles"
+              label="Distance (km)"
+              placeholder="Within 2 km"
               type="number"
             />
             
