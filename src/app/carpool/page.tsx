@@ -304,7 +304,7 @@ export default function CarpoolPage() {
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {['Sarah Johnson', 'Emily Rodriguez', 'Michael Chen', 'Lisa Wang'].map((name, index) => (
+                  {['Anant Srivastava', 'Nidhi Agarwal', 'Sanjay Khanna', 'Ajay Malik'].map((name, index) => (
                     <div key={index} className="flex items-center p-3 bg-green-50 rounded-lg">
                       <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
                         <span className="text-green-600 font-medium text-sm">
